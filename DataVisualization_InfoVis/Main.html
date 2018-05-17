@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Info Vis </title>
+<meta charset="utf-8" />
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: MistyRose;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: Black;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#heading {
+    font-size: 30px;
+    font-family: 'Courier New';
+    color: DarkCyan;
+    font-weight: bold;
+ }
+ 
+#authors {
+    font-size: 25px;
+    font-family: 'Courier New';
+    color: DarkCyan;
+}
+</style>
+</head>
+<body>
+
+<p align= "center" id="heading"><u>Graduate School Dataset Visualization</u> </p>
+<!--authors-->
+<p align= "center" id="authors">Aishwarya Shastry, Nivedita Prasad, Riya Maan</p>
+<!--tabs to display the charts developed as a component-->
+<div class="tab">
+  <button class="tablinks" onclick="openMap(event, 'Choropleth')">US Map</button>
+  <button class="tablinks" onclick="openMap(event, 'HorizontalBoxplot')">By major</button>
+  <button class="tablinks" onclick="openMap(event, 'Parallel_Coordinates')">By school type</button>
+  <button class="tablinks" onclick="openMap(event, 'ScatterPlot')">By region</button>
+</div>
+<!--Choropleth map page-->
+<div id="Choropleth" class="tabcontent" >
+  <center><iframe src="choropleth.html" width="800" height="900"></iframe></center>
+</div>
+<!--Whisker and Horizontal Box Plot page-->
+<div id="HorizontalBoxplot" class="tabcontent" >
+  <center><iframe src="hboxplot.html" width="1750" height="1750"></iframe></center>
+</div>
+<!--Parallel coordinates Chart page-->
+<div id="Parallel_Coordinates" class="tabcontent">
+  <center><iframe src="parallelCoordinates.html" width="1750" height="850" ></iframe></center>
+</div>
+<!--ScatterPlot Chart Page-->
+<div id="ScatterPlot" class="tabcontent">
+  <center><iframe src="Scatter_SalaryTrends.html" width="1000" height="600" ></iframe></center>
+</div>
+
+<script>
+function openMap(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+</body>
+</html> 

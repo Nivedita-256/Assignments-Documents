@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Parallel Coordinates Plot for Salary versus College type</title>
+  <meta charset="utf-8" />
+</head>
+
+<style>
+	#wrapper {
+	   position: relative;
+	   float: left;
+	   top: 20px;
+	   font-family: sans-serif;
+	   font-size: 10px;
+	}
+	
+	#heading {
+    font-size: 30px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    }
+</style>
+	
+<body>
+
+<link rel="stylesheet" type="text/css" href="https://syntagmatic.github.io/parallel-coordinates/d3.parcoords.css">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src = "https://syntagmatic.github.io/parallel-coordinates/d3.parcoords.js"></script>
+<p align= "center" id="heading"><u>Salary Trends for different School Types</u> </p>
+
+<div id="wrapper" class="parcoords" style="width:1700; height:700"></div>
+</body>		
+<script>
+var color_set = d3.scale.linear()
+	.range(["#3182bd", "#f33"]);
+// load default chart
+d3.csv("salaries-by-college-type_clean.csv", function(data){
+// collect text for first column to adjust left margin
+var firstCell = data.map(function(d){return d3.values(d)[0]});
+// find the longest text size in the first row to adjust left margin
+var textLength = 0;
+firstCell.forEach(function(d){
+	if (d.length > textLength) textLength = d.length;
+});
+	
+// get parallel coordinates
+graph = d3.parcoords()('#wrapper')
+	.data(data)
+		.margin({ top: 30, left: 3 * textLength, bottom: 40, right: 0 })
+		.width(1700)
+		.height(700)
+		.alpha(0.6)
+		.mode("queue")
+		.rate(5)
+		.render()
+		.brushMode("1D-axes")  // enable brushing
+		.reorderable() 
+		.interactive();
+// adding instruction text to guide user
+var instructions = "-Drag around axis to begin brush. -Click axis to clear brush. -Click a label to color data based on axis values."
+d3.select("#wrapper svg").append("text")
+	.text(instructions)
+	.attr("text-anchor", "middle")
+	.attr("text-decoration", "overline")
+	.attr("transform", "translate(" + graph.width()/2 + "," + (graph.height()-5) + ")");;
+
+	// set the initial coloring based on the 3rd column, mid_p50 here
+update_colors(d3.keys(data[0])[2]);
+ 
+ // click label to activate coloring
+graph.svg.selectAll(".dimension")
+    .on("click", update_colors)
+    .selectAll(".label")
+    	.style("font-size", "20px")
+    	.style("font-family","Courier New")
+    	.style("color","Red");// change font sizes of selected lable
+
+//adding mouse hover event for plotlines
+d3.select("#wrapper svg")
+	.on("mousemove", function() {
+	    var mousePosition = d3.mouse(this);			    
+	    highlightLineOnClick(mousePosition, true); 
+	})
+	
+	
+});
+// update color and font weight of chart based on axis selection
+// modified from website : https://syntagmatic.github.io/parallel-coordinates/
+function update_colors(dimension) { 
+	// change the fonts to bold
+	graph.svg.selectAll(".dimension")
+		.style("font-weight", "normal")
+		.filter(function(d) { return d == dimension; })
+			.style("font-weight", "bold");
+	// change color of lines
+	// set domain of color scale
+	var values = graph.data().map(function(d){return parseFloat(d[dimension])}); 
+	color_set.domain([d3.min(values), d3.max(values)]);
+	
+	// change colors for each line
+	graph.color(function(d){return color_set([d[dimension]])}).render();
+};		
+
+function getActiveData(){
+	
+	if (graph.brushed()!=false) return graph.brushed();
+	return graph.data();
+}
+
+
+
+</script>
+
+</html>

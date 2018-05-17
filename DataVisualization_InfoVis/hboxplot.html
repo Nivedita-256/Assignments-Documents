@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>horizontal boxplot</title>
+  <meta charset="utf-8" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" type="text/JavaScript"></script>
+</head>
+<style>
+svg {
+  border: 1px solid gray;
+}
+
+line {
+  shape-rendering: crispEdges;
+  stroke: #000000;
+}
+
+line.minor  {
+  stroke: #777777;
+  stroke-dasharray: 2,2;
+}
+
+path.domain {
+  fill: none;
+  stroke: black;
+}
+
+</style>
+<body>
+</body>
+    
+<script>
+//read dataset file
+d3.csv("degree_that_pay_back_clean.csv", boxplot)
+
+function boxplot(data){
+
+//height and width of boxplot
+  var h = 1700,
+      w = 1700;
+
+//margins of boxplot
+  var margin = {
+    'top': 100,
+    'bottom': 80,
+    'left': 400,
+    'right': 30 
+  }
+
+  d3.select("body").append("svg")
+    .attr("height", h)
+    .attr("width", w);
+
+    //heading
+    d3.select("svg").append("text")
+        .attr("transform", "translate(" + (w/2+100) + "," + (margin.top/2) + ")")
+        .attr("text-anchor", "middle")  
+        .style("font-size", "30px") 
+        .style("font-family", "monospace") 
+        .style("font-weight", "bold") 
+        .style("font", "monospace")  
+        .style("text-decoration", "underline")  
+        .text("Mid-Career Salary Trends for different Major");
+
+//x-axis scaling(linear scale)
+  xScale = d3.scale.linear()
+    .domain([0,250000])
+    .range([
+      margin.left,
+      w - margin.right
+    ]);
+    
+//make an array with names of majors
+    var major=[];
+    var i;
+    for (i=0;i<50;i++)
+        major[i]=data[i].major;
+
+//ordinal scale for y-axis 
+  yScale = d3.scale.ordinal() 
+    .domain(major)
+    .rangePoints([
+      h - margin.bottom,
+      margin.top
+    ]);
+
+
+  xAxis = d3.svg.axis()
+    .scale(xScale)
+    .orient("bottom"); 
+    
+//draw x-axis
+  d3.select("svg").append("g")
+    .attr("transform", "translate(0," + (h-margin.bottom) + ")")
+    .attr("id", "xAxisG")
+    .call(xAxis)
+    .append("text")
+        .attr("transform", "translate("+ (w/2+200) + "," + (margin.bottom-30) + ")")
+        .style("text-anchor", "end")
+        .style("font", "monospace") 
+        .style("font-size", "20px") 
+        .style("font-weight", "bold") 
+        .text("Salary");
+    
+
+  var indices = data.map(function(d){return Number(d.index)});
+
+  yAxis = d3.svg.axis()
+    .scale(yScale)
+    .orient("left")
+    .ticks(50);
+    
+//draw y-axis
+  d3.select("svg").append("g")
+    .attr("transform", "translate(" + margin.left + ",0)")
+    .attr("id", "yAxisG")
+    .call(yAxis)
+    .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("transform", "translate(" + (-margin.left+40) + ","+ (h/2) +")")
+        .style("text-anchor", "middle")
+        .style("font-size", "20px") 
+        .style("font", "monospace") 
+        .style("font-weight", "bold") 
+        .text("Major");
+ 
+//draw horizontal box and whiskers plot
+  d3.select("svg").selectAll("g.box")
+    .data(data)
+    .enter()
+    .append("g")
+    .attr("class", "box")
+    .attr("transform", function(d){ 
+      return "translate(" + 0 + "," + 
+        yScale(d.major) + ")"
+    })
+    .each(function(d,i){
+
+    //draw whisker from 10th to 25th percentile
+      d3.select(this)
+        .append("line")
+        .attr("class", "max")
+        .attr("x1", xScale(d.mid_p10) )
+        .attr("x2", xScale(d.mid_p25) )
+        .attr("y1", 0)
+        .attr("y2", 0)
+        .style("stroke", "black")
+        .style("stroke-width", "2px")
+        .append("svg:title")
+        .text(function(d) { return d.major; } );
+        
+    //draw box from 25th to 75th percentile
+      d3.select(this)
+        .append("rect")
+        .attr("class", "range")
+        .attr("x", xScale(d.mid_p25) )
+        .attr("y", -5)
+        .attr("height", 10)
+        .attr("width", xScale(d.mid_p75) - xScale(d.mid_p25))
+        .style("fill", "lightgray")
+        .style("stroke", "lightgray")
+        .style("stroke-width", "2px")
+        .append("svg:title")
+        .text(function(d) { return d.major; } );
+        
+    //draw whisker from 75th to 90th percentile
+        d3.select(this)
+        .append("line")
+        .attr("class", "min")
+        .attr("x1", xScale(d.mid_p75) )
+        .attr("x2", xScale(d.mid_p90) )
+        .attr("y1", 0)
+        .attr("y2", 0)
+        .style("stroke", "black")
+        .style("stroke-width", "2px")
+        .append("svg:title")
+        .text(function(d) { return d.major; } );
+
+    //draw 75th percentile 
+        d3.select(this)
+        .append("circle")
+        .attr("class", "tweets")
+        .attr("r", 5)
+        .attr("cx", xScale(d.mid_p75) )
+        .attr("cy", 0 )
+        .style("fill", "lightsalmon")
+        .append("svg:title")
+        .text(function(d) { return ("Salary Calculation: Mid-career 75th percentile\nMajor: " +d.major +"\nAverage: $" + d.mid_p75) ; } );
+        
+    //draw circle for 90th percentile
+        d3.select(this)
+        .append("circle")
+        .attr("class", "tweets")
+        .attr("r", 5 )
+        .attr("cx", xScale(d.mid_p90) )
+        .attr("cy", 0 )
+        .style("fill", "lightcoral")
+        .append("svg:title")
+        .text(function(d) { return ("Salary Calculation: Mid-career 90th percentile\nMajor: " +d.major +"\nAverage: $" + d.mid_p90) ; } );
+        
+    //draw circle for 25th percentile
+        d3.select(this)
+        .append("circle")
+        .attr("class", "tweets")
+        .attr("r", 5)
+        .attr("cx", xScale(d.mid_p25) )
+        .attr("cy", 0 )
+        .style("fill", "mediumturquoise")
+        .append("svg:title")
+        .text(function(d) { return ("Salary Calculation: Mid-career 25th percentile\nMajor: " +d.major +"\nAverage: $" + d.mid_p25) ; } );
+        
+    //draw circle for 10th percentile
+        d3.select(this)
+        .append("circle")
+        .attr("class", "tweets")
+        .attr("r", 5 )
+        .attr("cx", xScale(d.mid_p10) )
+        .attr("cy", 0 )
+        .style("fill", "cadetblue")
+        .append("svg:title")
+        .text(function(d) { return ("Salary Calculation: Mid-career 10th percentile\nMajor: " +d.major +"\nAverage: $" + d.mid_p10) ; } );
+        
+    //draw circle for 50th percentile
+        d3.select(this)
+        .append("circle")
+        .attr("class", "tweets")
+        .attr("r", 5 )
+        .attr("cx", xScale(d.mid_p50) )
+        .attr("cy", 0 )
+        .style("fill", "seashell") 
+        .append("svg:title")
+        .text(function(d) { return ("Salary Calculation: Mid-career 50th percentile\nMajor: " +d.major +"\nAverage: $" + d.mid_p50) ; } );
+    
+    })
+    
+    
+  
+}
+
+</script>
+  </footer>
+
+</html>

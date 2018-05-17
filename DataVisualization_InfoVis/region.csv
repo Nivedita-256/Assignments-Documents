@@ -1,0 +1,321 @@
+index,school_name,region,bgn_p50,mid_p50,mid_p10,mid_p25,mid_p75,mid_p90
+1,California Institute of Technology (CIT),California,75500.0,123000.0,0.0,104000.0,161000.0,0.0
+222,Massachusetts Institute of Technology (MIT),Northeastern,72200.0,126000.0,76800.0,99200.0,168000.0,220000.0
+2,Harvey Mudd College,California,71800.0,122000.0,0.0,96000.0,180000.0,0.0
+0,Stanford University,California,70400.0,129000.0,68400.0,93100.0,184000.0,257000.0
+221,Princeton University,Northeastern,66500.0,131000.0,68900.0,100000.0,190000.0,261000.0
+141,Rice University,Southern,64000.0,110000.0,55900.0,82100.0,141000.0,216000.0
+224,Harvard University,Northeastern,63400.0,124000.0,54800.0,86200.0,179000.0,288000.0
+226,"Polytechnic University of New York, Brooklyn",Northeastern,62400.0,114000.0,66800.0,94300.0,143000.0,190000.0
+227,Cooper Union,Northeastern,62200.0,114000.0,0.0,80200.0,142000.0,0.0
+229,Carnegie Mellon University (CMU),Northeastern,61800.0,111000.0,63300.0,80100.0,150000.0,209000.0
+230,Rensselaer Polytechnic Institute (RPI),Northeastern,61100.0,110000.0,71600.0,85500.0,140000.0,182000.0
+228,Worcester Polytechnic Institute (WPI),Northeastern,61000.0,114000.0,80000.0,91200.0,137000.0,180000.0
+225,University of Pennsylvania,Northeastern,60900.0,120000.0,55900.0,79200.0,192000.0,282000.0
+240,Stevens Institute of Technology,Northeastern,60600.0,105000.0,68700.0,81900.0,138000.0,185000.0
+231,Cornell University,Northeastern,60300.0,110000.0,56800.0,79800.0,160000.0,210000.0
+3,"University of California, Berkeley",California,59900.0,112000.0,59500.0,81000.0,149000.0,201000.0
+235,Columbia University,Northeastern,59400.0,107000.0,50300.0,71900.0,161000.0,241000.0
+241,Lehigh University,Northeastern,59200.0,105000.0,69500.0,85000.0,160000.0,229000.0
+223,Yale University,Northeastern,59100.0,126000.0,58000.0,80600.0,198000.0,326000.0
+143,Duke University,Southern,58900.0,106000.0,56000.0,77400.0,149000.0,218000.0
+144,Georgia Institute of Technology,Southern,58300.0,106000.0,67200.0,85200.0,137000.0,183000.0
+28,Colorado School of Mines,Western,58100.0,106000.0,62200.0,87900.0,142000.0,201000.0
+220,Dartmouth College,Northeastern,58000.0,134000.0,63100.0,90200.0,234000.0,321000.0
+5,Cal Poly San Luis Obispo,California,57200.0,101000.0,55000.0,74700.0,133000.0,178000.0
+77,University of Missouri - Rolla (UMR),Midwestern,57100.0,95800.0,67600.0,80400.0,122000.0,166000.0
+70,University of Notre Dame,Midwestern,56300.0,116000.0,66400.0,85100.0,163000.0,235000.0
+233,Brown University,Northeastern,56200.0,109000.0,55400.0,74400.0,159000.0,228000.0
+74,Case Western Reserve University,Midwestern,56200.0,96500.0,54900.0,76500.0,123000.0,168000.0
+73,Illinois Institute of Technology (IIT),Midwestern,56000.0,97800.0,56100.0,77400.0,121000.0,165000.0
+78,South Dakota School of Mines & Technology,Midwestern,55800.0,93400.0,71500.0,81900.0,122000.0,147000.0
+245,Villanova University,Northeastern,55800.0,101000.0,56800.0,76200.0,156000.0,226000.0
+142,Georgetown University,Southern,55000.0,110000.0,60300.0,85800.0,174000.0,248000.0
+9,University of Southern California (USC),California,54800.0,99600.0,49700.0,73800.0,140000.0,201000.0
+236,Amherst College,Northeastern,54500.0,107000.0,0.0,84900.0,162000.0,0.0
+232,Bucknell University,Northeastern,54100.0,110000.0,62800.0,80600.0,156000.0,251000.0
+237,Lafayette College,Northeastern,53900.0,107000.0,70600.0,79300.0,144000.0,204000.0
+145,Washington and Lee University,Southern,53600.0,104000.0,0.0,82800.0,146000.0,0.0
+250,Binghamton University,Northeastern,53600.0,95900.0,50900.0,71200.0,146000.0,201000.0
+12,San Jose State University (SJSU),California,53500.0,95600.0,50700.0,70500.0,122000.0,156000.0
+152,Virginia Polytechnic Institute and State University (Virginia Tech),Southern,53500.0,95400.0,50600.0,71400.0,124000.0,163000.0
+71,University Of Chicago,Midwestern,53400.0,113000.0,62200.0,83300.0,174000.0,255000.0
+257,Drexel University,Northeastern,53400.0,93500.0,54900.0,72500.0,122000.0,161000.0
+266,Pace University,Northeastern,53200.0,89700.0,44200.0,65400.0,129000.0,187000.0
+248,Wentworth Institute of Technology,Northeastern,53000.0,96700.0,55200.0,74000.0,117000.0,153000.0
+288,Widener University,Northeastern,52900.0,83400.0,42600.0,61400.0,106000.0,138000.0
+75,University of Illinois at Urbana-Champaign (UIUC),Midwestern,52900.0,96100.0,48200.0,68900.0,132000.0,177000.0
+234,Colgate University,Northeastern,52800.0,108000.0,60000.0,76700.0,167000.0,265000.0
+76,Northwestern University,Midwestern,52700.0,95900.0,51900.0,69100.0,144000.0,205000.0
+79,University of Michigan,Midwestern,52700.0,93000.0,50900.0,69400.0,128000.0,182000.0
+243,Boston College,Northeastern,52700.0,103000.0,48900.0,70000.0,143000.0,195000.0
+148,University of Virginia (UVA),Southern,52700.0,103000.0,52200.0,71800.0,146000.0,215000.0
+6,University of California at Los Angeles (UCLA),California,52600.0,101000.0,51300.0,72500.0,139000.0,193000.0
+10,"University of California, Davis",California,52300.0,99600.0,52000.0,71600.0,135000.0,202000.0
+156,Emory University,Southern,52000.0,91600.0,52500.0,63300.0,128000.0,192000.0
+153,"University of Maryland, College Park",Southern,52000.0,95000.0,50400.0,68300.0,126000.0,166000.0
+4,Occidental College,California,51900.0,105000.0,0.0,54800.0,157000.0,0.0
+244,Williams College,Northeastern,51700.0,102000.0,0.0,76400.0,143000.0,0.0
+80,Purdue University,Midwestern,51400.0,90500.0,49900.0,67400.0,121000.0,168000.0
+146,Vanderbilt University,Southern,51200.0,104000.0,49900.0,68100.0,147000.0,222000.0
+7,"University of California, San Diego (UCSD)",California,51100.0,101000.0,51700.0,75400.0,131000.0,177000.0
+30,New Mexico Institute of Mining and Technology (New Mexico Tech),Western,51000.0,93400.0,0.0,67400.0,123000.0,0.0
+13,"University of California, Santa Barbara (UCSB)",California,50500.0,95000.0,51300.0,71200.0,129000.0,173000.0
+274,Northeastern University,Northeastern,50500.0,86400.0,47100.0,62700.0,117000.0,159000.0
+264,Rutgers University,Northeastern,50300.0,91800.0,48100.0,65100.0,128000.0,176000.0
+252,New York University (NYU),Northeastern,50300.0,95600.0,47500.0,65000.0,142000.0,216000.0
+239,College of the Holy Cross,Northeastern,50200.0,106000.0,0.0,65600.0,143000.0,0.0
+278,Pennsylvania State University (PSU),Northeastern,49900.0,85700.0,46300.0,62000.0,117000.0,160000.0
+150,Texas A&M University,Southern,49700.0,96100.0,51100.0,71300.0,131000.0,171000.0
+155,University of Texas (UT) - Austin,Southern,49700.0,93900.0,50100.0,67400.0,129000.0,188000.0
+242,Swarthmore College,Northeastern,49700.0,104000.0,0.0,67200.0,167000.0,0.0
+192,LeTourneau University,Southern,49500.0,73800.0,41200.0,52700.0,95200.0,126000.0
+260,Stony Brook University,Northeastern,49500.0,93000.0,47200.0,67100.0,129000.0,181000.0
+31,Brigham Young University (BYU),Western,49400.0,88600.0,50600.0,68500.0,119000.0,164000.0
+19,"California State University, East Bay (CSUEB)",California,49200.0,84300.0,46000.0,62400.0,115000.0,155000.0
+286,Hamilton College,Northeastern,49200.0,83700.0,0.0,51900.0,123000.0,0.0
+151,Tulane University,Southern,49100.0,95800.0,46500.0,64400.0,134000.0,185000.0
+261,Franklin and Marshall College,Northeastern,49100.0,92800.0,0.0,55800.0,185000.0,0.0
+256,Boston University,Northeastern,49000.0,93900.0,48000.0,64900.0,130000.0,193000.0
+267,Seton Hall University,Northeastern,48900.0,89200.0,55700.0,70600.0,133000.0,195000.0
+83,University of Wisconsin (UW) - Madison,Midwestern,48900.0,87800.0,47400.0,62400.0,118000.0,170000.0
+282,Rochester Institute of Technology (RIT),Northeastern,48900.0,84600.0,45000.0,62100.0,112000.0,159000.0
+33,University of Washington (UW),Western,48800.0,85300.0,47000.0,59800.0,115000.0,149000.0
+154,University of Richmond,Southern,48600.0,94600.0,44500.0,59400.0,151000.0,211000.0
+8,Pomona College,California,48600.0,101000.0,0.0,63300.0,161000.0,0.0
+81,Marquette University,Midwestern,48500.0,88400.0,49500.0,67400.0,121000.0,184000.0
+163,Clemson University,Southern,48400.0,86000.0,50500.0,61800.0,111000.0,150000.0
+159,Baylor University,Southern,48300.0,88600.0,46300.0,60700.0,130000.0,200000.0
+56,Regis University,Western,48300.0,73800.0,41000.0,55500.0,94800.0,117000.0
+11,"University of California, Irvine (UCI)",California,48300.0,96700.0,47800.0,66000.0,123000.0,172000.0
+40,Seattle University,Western,48300.0,82800.0,50600.0,62400.0,110000.0,150000.0
+238,Bowdoin College,Northeastern,48100.0,107000.0,0.0,74600.0,146000.0,0.0
+258,"St. John's University, New York",Northeastern,48000.0,93400.0,48000.0,65400.0,124000.0,181000.0
+269,University of Connecticut (UConn),Northeastern,48000.0,88800.0,46100.0,66400.0,120000.0,162000.0
+270,Providence College,Northeastern,48000.0,88600.0,42800.0,62900.0,138000.0,194000.0
+21,"California State University, Sacramento (CSUS)",California,47800.0,82400.0,42900.0,59600.0,111000.0,154000.0
+162,George Mason University,Southern,47800.0,86900.0,51300.0,67200.0,114000.0,150000.0
+246,Fordham University,Northeastern,47800.0,99900.0,48600.0,65900.0,142000.0,198000.0
+254,Middlebury College,Northeastern,47700.0,94200.0,0.0,69100.0,129000.0,0.0
+72,Carleton College,Midwestern,47500.0,103000.0,0.0,69400.0,141000.0,0.0
+94,University of Illinois at Chicago,Midwestern,47500.0,81700.0,44700.0,58800.0,110000.0,146000.0
+32,University of Arizona,Western,47500.0,86100.0,44800.0,61700.0,117000.0,160000.0
+14,"California State University (CSU), Chico",California,47400.0,88100.0,46800.0,62800.0,122000.0,154000.0
+36,Arizona State University (ASU),Western,47400.0,84100.0,44600.0,60700.0,114000.0,163000.0
+259,Long Island University,Northeastern,47300.0,93200.0,46300.0,62100.0,122000.0,169000.0
+284,State University of New York (SUNY) at Farmingdale,Northeastern,47300.0,84200.0,50200.0,59800.0,110000.0,162000.0
+16,San Francisco State University (SFSU),California,47300.0,86400.0,45100.0,62700.0,114000.0,150000.0
+249,Bates College,Northeastern,47300.0,96500.0,0.0,60700.0,162000.0,0.0
+168,North Carolina State University (NCSU),Southern,47200.0,83300.0,49200.0,64800.0,112000.0,153000.0
+251,Union College,Northeastern,47200.0,95800.0,48700.0,75200.0,135000.0,230000.0
+160,University of Florida (UF),Southern,47100.0,87900.0,45400.0,62900.0,120000.0,172000.0
+29,University of Colorado - Boulder (UCB),Western,47100.0,97600.0,51600.0,69000.0,128000.0,187000.0
+185,University of Maryland Baltimore County (UMBC),Southern,47000.0,77800.0,46900.0,59100.0,105000.0,130000.0
+149,George Washington University (GWU),Southern,47000.0,97900.0,48400.0,69600.0,132000.0,194000.0
+84,Bradley University,Midwestern,47000.0,87300.0,45900.0,64900.0,113000.0,151000.0
+161,Louisiana State University (LSU),Southern,46900.0,87800.0,43700.0,61300.0,120000.0,165000.0
+172,Howard University,Southern,46900.0,81800.0,43300.0,60000.0,109000.0,138000.0
+22,"University of California, Riverside (UCR)",California,46800.0,81300.0,37200.0,59900.0,109000.0,134000.0
+262,Hofstra University,Northeastern,46800.0,92700.0,48900.0,67000.0,135000.0,189000.0
+206,Jacksonville University,Southern,46700.0,66200.0,36700.0,47200.0,88500.0,121000.0
+43,University of Puget Sound,Western,46600.0,81500.0,48900.0,60100.0,104000.0,137000.0
+271,University of Massachusetts (UMass) - Amherst,Northeastern,46600.0,88200.0,43100.0,61300.0,122000.0,168000.0
+52,Montana State University - Bozeman,Western,46600.0,77500.0,40200.0,58100.0,111000.0,151000.0
+39,"University of Nevada, Reno (UNR)",Western,46500.0,82900.0,41900.0,54600.0,113000.0,143000.0
+247,"Wesleyan University (Middletown, Connecticut)",Northeastern,46500.0,97900.0,42000.0,62500.0,126000.0,215000.0
+180,Lamar University,Southern,46500.0,79400.0,38700.0,51600.0,114000.0,158000.0
+276,Colby College,Northeastern,46400.0,85800.0,0.0,63500.0,129000.0,0.0
+87,DePaul University,Midwestern,46400.0,84800.0,50300.0,63900.0,115000.0,160000.0
+90,"Indiana University (IU), Bloomington",Midwestern,46300.0,84000.0,43600.0,60400.0,119000.0,178000.0
+86,Michigan State University (MSU),Midwestern,46300.0,85300.0,44200.0,61500.0,119000.0,170000.0
+89,University of Minnesota,Midwestern,46200.0,84200.0,49000.0,63200.0,112000.0,148000.0
+177,Tennessee Technological University,Southern,46200.0,80000.0,42100.0,62600.0,99500.0,121000.0
+17,San Diego State University (SDSU),California,46200.0,85200.0,45500.0,61800.0,116000.0,158000.0
+292,State University of New York (SUNY) at Buffalo,Northeastern,46200.0,81700.0,45900.0,61400.0,110000.0,147000.0
+147,Davidson College,Southern,46100.0,104000.0,0.0,70500.0,146000.0,0.0
+35,University of Colorado - Denver,Western,46100.0,84400.0,46400.0,58600.0,105000.0,144000.0
+178,University of Houston (UH),Southern,46000.0,79900.0,42000.0,56200.0,106000.0,141000.0
+253,Vassar College,Northeastern,46000.0,94600.0,0.0,60600.0,123000.0,0.0
+307,Sacred Heart University,Northeastern,46000.0,75300.0,39700.0,54800.0,105000.0,150000.0
+166,University of Delaware,Southern,45900.0,84500.0,44500.0,64000.0,119000.0,165000.0
+58,"University of Alaska, Anchorage",Western,45900.0,72600.0,39800.0,56600.0,99300.0,137000.0
+103,University of Wisconsin (UW) - Platteville,Midwestern,45800.0,78500.0,48400.0,61200.0,100000.0,139000.0
+299,Fairleigh Dickinson University,Northeastern,45700.0,78700.0,40200.0,56300.0,112000.0,171000.0
+310,Penn State - Harrisburg,Northeastern,45700.0,74000.0,44000.0,53100.0,104000.0,150000.0
+98,University of Nebraska,Midwestern,45700.0,80900.0,42200.0,56600.0,113000.0,156000.0
+275,Syracuse University,Northeastern,45700.0,85900.0,46400.0,59400.0,119000.0,178000.0
+15,"California State University, Fullerton (CSUF)",California,45700.0,87000.0,45400.0,62500.0,119000.0,158000.0
+301,University of Massachusetts (UMass) - Boston,Northeastern,45600.0,78200.0,36300.0,53800.0,109000.0,151000.0
+23,"California State University, Northridge (CSUN)",California,45500.0,80400.0,44500.0,57800.0,108000.0,153000.0
+280,Siena College,Northeastern,45500.0,85200.0,38700.0,58400.0,129000.0,189000.0
+88,Iowa State University,Midwestern,45400.0,84600.0,44400.0,60000.0,109000.0,147000.0
+165,Auburn University,Southern,45400.0,84700.0,45400.0,62700.0,109000.0,145000.0
+273,University of Massachusetts (UMass) - Lowell,Northeastern,45400.0,86600.0,50900.0,65000.0,113000.0,158000.0
+175,University of Texas at Arlington (UTA),Southern,45400.0,80800.0,46400.0,61200.0,106000.0,138000.0
+38,University of Utah,Western,45400.0,83200.0,43000.0,58400.0,116000.0,148000.0
+34,Washington State University (WSU),Western,45300.0,84700.0,43600.0,59000.0,113000.0,162000.0
+157,"American University, Washington D.C.",Southern,45300.0,90800.0,45200.0,62400.0,134000.0,169000.0
+85,St. Olaf College,Midwestern,45300.0,86200.0,41300.0,61000.0,120000.0,185000.0
+61,"University of Nevada, Las Vegas (UNLV)",Western,45200.0,71600.0,39000.0,52400.0,100000.0,128000.0
+18,"California State University, Long Beach (CSULB)",California,45100.0,84700.0,47400.0,62500.0,113000.0,154000.0
+295,Philadelphia University,Northeastern,45100.0,80300.0,45800.0,61900.0,108000.0,141000.0
+37,Oregon State University (OSU),Western,45100.0,83300.0,46900.0,64000.0,113000.0,146000.0
+105,North Dakota State University (NDSU),Midwestern,45100.0,77800.0,39000.0,55800.0,100000.0,123000.0
+183,Texas Christian University (TCU),Southern,45100.0,78100.0,42600.0,56600.0,122000.0,183000.0
+41,University of Idaho,Western,44900.0,82000.0,43000.0,56700.0,104000.0,142000.0
+92,Ohio State University (OSU),Midwestern,44900.0,83700.0,45500.0,60700.0,116000.0,162000.0
+53,Gonzaga University,Western,44900.0,76000.0,47000.0,57400.0,103000.0,138000.0
+57,Idaho State University,Western,44900.0,73400.0,35400.0,49600.0,101000.0,143000.0
+48,Colorado State University (CSU),Western,44800.0,79000.0,43800.0,57100.0,112000.0,150000.0
+291,University of Vermont (UVM),Northeastern,44800.0,82700.0,44700.0,58000.0,122000.0,194000.0
+20,"University of California, Santa Cruz (UCSC)",California,44700.0,84100.0,46100.0,62000.0,121000.0,165000.0
+277,Gettysburg College,Northeastern,44700.0,85800.0,0.0,66300.0,132000.0,0.0
+169,University of Oklahoma,Southern,44700.0,82900.0,41200.0,60300.0,114000.0,167000.0
+91,University of Iowa (UI),Midwestern,44700.0,83900.0,43300.0,61100.0,116000.0,163000.0
+49,University of Wyoming (UW),Western,44500.0,78700.0,41500.0,54000.0,105000.0,145000.0
+181,Mississippi State University (MSU),Southern,44500.0,79300.0,43300.0,58800.0,108000.0,151000.0
+100,Gustavus Adolphus College,Midwestern,44500.0,80600.0,0.0,49300.0,101000.0,0.0
+263,State University of New York (SUNY) at Albany,Northeastern,44500.0,92200.0,47000.0,63100.0,135000.0,209000.0
+289,University of New Haven,Northeastern,44400.0,82900.0,48500.0,66100.0,113000.0,157000.0
+133,Park University,Midwestern,44300.0,64300.0,37200.0,45600.0,86400.0,113000.0
+47,New Mexico State University,Western,44300.0,79500.0,37400.0,53800.0,102000.0,131000.0
+164,University of Georgia (UGA),Southern,44100.0,86000.0,43100.0,57800.0,118000.0,164000.0
+170,University of Arkansas,Southern,44100.0,82800.0,43200.0,60700.0,113000.0,160000.0
+285,Smith College,Northeastern,44000.0,83900.0,45100.0,59800.0,129000.0,184000.0
+101,University of North Dakota,Midwestern,44000.0,80600.0,43400.0,56400.0,111000.0,157000.0
+279,University of Rhode Island (URI),Northeastern,43900.0,85300.0,45400.0,60100.0,112000.0,157000.0
+265,Pratt Institute,Northeastern,43800.0,89900.0,48600.0,65400.0,123000.0,155000.0
+50,Utah State University,Western,43800.0,78700.0,41600.0,55400.0,101000.0,132000.0
+54,University of Hawaii,Western,43800.0,76000.0,40400.0,56300.0,104000.0,128000.0
+188,University of Tennessee,Southern,43800.0,74600.0,41900.0,53200.0,106000.0,153000.0
+319,Mercy College,Northeastern,43700.0,62600.0,35600.0,47300.0,99000.0,134000.0
+126,University of Wisconsin (UW) - Stout,Midwestern,43600.0,68300.0,40900.0,50600.0,91600.0,136000.0
+99,Northern Illinois University (NIU),Midwestern,43600.0,80800.0,43900.0,60200.0,111000.0,161000.0
+268,Rider University,Northeastern,43600.0,88900.0,47100.0,63100.0,127000.0,150000.0
+46,Whitman College,Western,43500.0,80100.0,0.0,64800.0,111000.0,0.0
+116,Cleveland State University,Midwestern,43500.0,73100.0,39500.0,51600.0,97000.0,137000.0
+95,Oberlin College,Midwestern,43400.0,81600.0,0.0,46400.0,128000.0,0.0
+194,University of Texas at El Paso (UTEP),Southern,43400.0,72100.0,37700.0,50400.0,99500.0,133000.0
+281,La Salle University (Philadelphia),Northeastern,43400.0,84700.0,45300.0,57500.0,106000.0,151000.0
+110,Minnesota State University - Mankato,Midwestern,43300.0,74700.0,39500.0,53800.0,95700.0,140000.0
+102,Kansas State University (KSU),Midwestern,43300.0,79000.0,37200.0,54100.0,106000.0,138000.0
+187,Florida International University (FIU),Southern,43200.0,75500.0,40500.0,55800.0,98200.0,136000.0
+303,University of Massachusetts (UMass) - Dartmouth,Northeastern,43200.0,77700.0,43300.0,56200.0,107000.0,132000.0
+190,University of North Carolina at Charlotte (UNCC),Southern,43100.0,74000.0,38200.0,53200.0,99500.0,133000.0
+171,University of Alabama at Huntsville (UAH),Southern,43100.0,82700.0,46100.0,67800.0,106000.0,132000.0
+184,West Virginia University (WVU),Southern,43100.0,78100.0,39700.0,55700.0,106000.0,141000.0
+108,University of Toledo,Midwestern,43100.0,75900.0,40100.0,54100.0,100000.0,133000.0
+118,Southern Illinois University Carbondale,Midwestern,43000.0,72500.0,38300.0,51300.0,99300.0,139000.0
+305,Quinnipiac University,Northeastern,43000.0,76500.0,47900.0,57400.0,117000.0,155000.0
+173,University of North Carolina at Chapel Hill (UNCH),Southern,42900.0,81500.0,43400.0,57500.0,117000.0,155000.0
+176,Oklahoma State University,Southern,42800.0,80700.0,40100.0,56500.0,114000.0,151000.0
+287,Wellesley College,Northeastern,42800.0,83500.0,0.0,58600.0,125000.0,0.0
+182,University of Kentucky (UK),Southern,42800.0,78300.0,43000.0,57300.0,107000.0,149000.0
+294,Fashion Institute of Technology,Northeastern,42800.0,81000.0,38800.0,60500.0,106000.0,138000.0
+107,Wayne State University,Midwestern,42800.0,76100.0,40100.0,56200.0,101000.0,139000.0
+272,Ithaca College,Northeastern,42700.0,87400.0,50200.0,62400.0,128000.0,174000.0
+55,Western Washington University,Western,42700.0,75400.0,41300.0,56700.0,99200.0,119000.0
+24,"California State University, Dominguez Hills (CSUDH)",California,42700.0,72100.0,30800.0,47000.0,92200.0,132000.0
+26,Humboldt State University,California,42600.0,71300.0,36000.0,56300.0,94400.0,117000.0
+197,Florida Atlantic University (FAU),Southern,42600.0,71100.0,40700.0,53000.0,99500.0,137000.0
+62,Portland State University (PSU),Western,42600.0,70900.0,40700.0,52300.0,94400.0,123000.0
+106,Grinnell College,Midwestern,42600.0,76600.0,0.0,65100.0,116000.0,0.0
+167,Randolph-Macon College,Southern,42600.0,83600.0,0.0,54100.0,123000.0,0.0
+195,University of Central Florida (UCF),Southern,42600.0,71700.0,39500.0,51500.0,98400.0,125000.0
+199,University of Texas at San Antonio (UTSA),Southern,42500.0,70700.0,39100.0,49800.0,92700.0,121000.0
+309,Moravian College,Northeastern,42500.0,74400.0,0.0,56700.0,94900.0,0.0
+312,Fitchburg State College,Northeastern,42400.0,72600.0,43300.0,56100.0,99600.0,151000.0
+66,Utah Valley State College,Western,42400.0,67100.0,0.0,44100.0,84900.0,0.0
+158,University of Tulsa,Southern,42400.0,88700.0,42300.0,60300.0,120000.0,197000.0
+255,Mount Holyoke College,Northeastern,42400.0,94200.0,0.0,57100.0,131000.0,0.0
+96,University of Kansas,Midwestern,42400.0,81600.0,44800.0,57200.0,115000.0,156000.0
+112,Western Michigan University (WMU),Midwestern,42300.0,73800.0,40100.0,52500.0,103000.0,135000.0
+293,State University of New York (SUNY) at Geneseo,Northeastern,42300.0,81300.0,39300.0,47600.0,117000.0,173000.0
+111,University of Wisconsin (UW) - Milwaukee,Midwestern,42300.0,74600.0,40600.0,54000.0,93700.0,123000.0
+51,University of Oregon,Western,42200.0,78400.0,38100.0,56200.0,117000.0,186000.0
+114,Ohio University,Midwestern,42200.0,73400.0,36600.0,52800.0,106000.0,150000.0
+125,University of Wisconsin (UW) - La Crosse,Midwestern,42200.0,69300.0,37500.0,47200.0,93100.0,133000.0
+296,Ursinus College,Northeastern,42100.0,80000.0,35600.0,54300.0,100000.0,160000.0
+193,Florida State University (FSU),Southern,42100.0,73000.0,39600.0,52800.0,107000.0,156000.0
+311,Suffolk University,Northeastern,42100.0,74000.0,48700.0,57800.0,95100.0,145000.0
+115,Illinois State University,Midwestern,42000.0,73400.0,39100.0,55200.0,105000.0,142000.0
+313,Roger Williams University,Northeastern,42000.0,72300.0,39800.0,48500.0,102000.0,138000.0
+64,Fort Lewis College,Western,42000.0,69800.0,0.0,55000.0,94000.0,0.0
+93,Denison University,Midwestern,42000.0,83500.0,0.0,62100.0,122000.0,0.0
+203,Virginia Commonwealth University (VCU),Southern,42000.0,68400.0,37400.0,51900.0,100000.0,123000.0
+68,Southern Utah University,Western,41900.0,56500.0,0.0,39700.0,78400.0,0.0
+300,University of New Hampshire (UNH),Northeastern,41800.0,78300.0,41700.0,56400.0,114000.0,147000.0
+121,St. Cloud State University,Midwestern,41800.0,71400.0,38700.0,49400.0,101000.0,126000.0
+298,Juniata College,Northeastern,41800.0,78900.0,0.0,67200.0,110000.0,0.0
+191,Georgia State University,Southern,41800.0,74000.0,43000.0,55300.0,99900.0,145000.0
+97,University of Missouri - Columbia,Midwestern,41700.0,81000.0,43500.0,57100.0,111000.0,156000.0
+42,University of New Mexico (UNM),Western,41600.0,81600.0,41800.0,59100.0,105000.0,141000.0
+308,Skidmore College,Northeastern,41600.0,74600.0,0.0,42800.0,147000.0,0.0
+27,Thomas Aquinas College,California,41500.0,67500.0,0.0,44600.0,93100.0,0.0
+117,University of Nebraska at Omaha,Midwestern,41500.0,72600.0,39500.0,54400.0,97400.0,126000.0
+128,University of Missouri - St. Louis (UMSL),Midwestern,41400.0,67100.0,36800.0,49600.0,97600.0,144000.0
+82,DePauw University,Midwestern,41400.0,88200.0,49500.0,57400.0,133000.0,185000.0
+179,University of Mississippi,Southern,41400.0,79700.0,40400.0,53500.0,108000.0,186000.0
+131,University of Wisconsin (UW) - Eau Claire,Midwestern,41400.0,64800.0,35000.0,47300.0,93100.0,125000.0
+201,University of Memphis (U of M),Southern,41400.0,69700.0,36100.0,49100.0,93500.0,127000.0
+174,"University of Alabama, Tuscaloosa",Southern,41300.0,81400.0,40100.0,56500.0,117000.0,161000.0
+314,University Of Maine,Northeastern,41200.0,72100.0,41700.0,55600.0,99300.0,141000.0
+113,South Dakota State University (SDSU),Midwestern,41100.0,73500.0,34100.0,49900.0,99400.0,129000.0
+186,University of Louisiana (UL) at Lafayette,Southern,41100.0,76300.0,42000.0,54500.0,107000.0,163000.0
+198,University of South Florida (USF),Southern,41100.0,71100.0,39600.0,51500.0,98100.0,131000.0
+123,University of Akron,Midwestern,41100.0,70300.0,40600.0,53300.0,95200.0,127000.0
+290,Dowling College,Northeastern,41100.0,82800.0,46500.0,60600.0,117000.0,142000.0
+215,Saint Leo University,Southern,40900.0,57800.0,34400.0,41800.0,80600.0,113000.0
+306,State University of New York (SUNY) at Plattsburgh,Northeastern,40800.0,76200.0,38400.0,54100.0,105000.0,136000.0
+109,University of Wisconsin (UW) - Whitewater,Midwestern,40800.0,75500.0,38200.0,53500.0,99300.0,150000.0
+210,Tarleton State University (TSU),Southern,40800.0,62400.0,32100.0,47400.0,80400.0,126000.0
+65,Boise State University (BSU),Western,40800.0,69500.0,37400.0,48700.0,87500.0,110000.0
+283,Duquesne University,Northeastern,40700.0,84400.0,42600.0,59500.0,107000.0,131000.0
+122,University of Wisconsin (UW) - Parkside,Midwestern,40700.0,71400.0,40900.0,53100.0,84900.0,119000.0
+297,Adelphi University,Northeastern,40600.0,79200.0,44200.0,54800.0,114000.0,160000.0
+45,Reed College,Western,40500.0,81100.0,0.0,67400.0,101000.0,0.0
+202,Appalachian State University,Southern,40400.0,69100.0,37200.0,50400.0,90800.0,115000.0
+138,Pittsburg State University,Midwestern,40400.0,58200.0,25600.0,46000.0,84600.0,117000.0
+119,Eastern Michigan University,Midwestern,40300.0,72100.0,37900.0,52800.0,95400.0,135000.0
+204,East Carolina University (ECU),Southern,40200.0,67500.0,38400.0,52000.0,98700.0,151000.0
+208,Oklahoma City University,Southern,40000.0,64300.0,0.0,45400.0,80600.0,0.0
+196,University of South Carolina,Southern,40000.0,71700.0,36300.0,49900.0,98400.0,131000.0
+134,University of Wisconsin (UW) - Stevens Point,Midwestern,39800.0,64000.0,38400.0,45100.0,95400.0,128000.0
+137,Indiana Wesleyan University (IWU),Midwestern,39800.0,58500.0,39600.0,47800.0,78600.0,93400.0
+120,Bowling Green State University,Midwestern,39800.0,72100.0,38200.0,51800.0,101000.0,146000.0
+139,Davenport University,Midwestern,39700.0,46600.0,31600.0,38100.0,65600.0,85700.0
+67,Evergreen State College,Western,39500.0,63900.0,38800.0,47200.0,91600.0,120000.0
+213,Dallas Baptist University,Southern,39400.0,60200.0,38500.0,50300.0,81800.0,98100.0
+318,University of Southern Maine,Northeastern,39400.0,63600.0,40400.0,47900.0,85700.0,117000.0
+129,University of Wisconsin (UW) - Oshkosh,Midwestern,39300.0,66400.0,37700.0,49700.0,90100.0,138000.0
+200,University of Alabama at Birmingham (UAB),Southern,39200.0,70100.0,43000.0,53400.0,91400.0,125000.0
+189,University of Arkansas - Monticello (UAM),Southern,39200.0,74500.0,0.0,46100.0,110000.0,0.0
+104,Wittenberg University,Midwestern,39200.0,78200.0,0.0,54100.0,131000.0,0.0
+132,Ball State University (BSU),Midwestern,39100.0,64500.0,35500.0,48200.0,89300.0,128000.0
+59,Lewis & Clark College,Western,38900.0,72600.0,38200.0,53400.0,104000.0,140000.0
+130,University of Missouri - Kansas City (UMKC),Midwestern,38900.0,65800.0,36300.0,48100.0,95800.0,124000.0
+209,Arkansas State University (ASU),Southern,38700.0,63300.0,33600.0,45300.0,83900.0,118000.0
+135,Kent State University,Midwestern,38700.0,62600.0,36100.0,45800.0,87000.0,124000.0
+63,Eastern Washington University,Western,38600.0,70900.0,36000.0,50500.0,93100.0,117000.0
+44,Colorado College (CC),Western,38500.0,81400.0,0.0,43000.0,148000.0,0.0
+127,Robert Morris College (RMC),Midwestern,38500.0,68200.0,37300.0,47100.0,95000.0,128000.0
+25,"California State University (CSU), Stanislaus",California,38000.0,71400.0,0.0,50500.0,94100.0,0.0
+302,State University of New York (SUNY) at Oswego,Northeastern,38000.0,77800.0,40400.0,53000.0,115000.0,169000.0
+315,State University of New York (SUNY) at Potsdam,Northeastern,38000.0,70300.0,35100.0,51200.0,100000.0,179000.0
+69,Montana State University - Billings,Western,37900.0,50600.0,0.0,31800.0,78500.0,0.0
+317,State University of New York (SUNY) at Fredonia,Northeastern,37800.0,66200.0,32800.0,44200.0,93300.0,181000.0
+214,Austin Peay State University,Southern,37700.0,59200.0,32200.0,40500.0,73900.0,96200.0
+304,State University of New York (SUNY) at Oneonta,Northeastern,37500.0,76700.0,40000.0,54300.0,97700.0,155000.0
+207,University of North Carolina at Wilmington (UNCW),Southern,37500.0,64400.0,32100.0,46600.0,97100.0,129000.0
+60,University of Montana,Western,37300.0,71900.0,37000.0,51500.0,96400.0,138000.0
+205,Western Carolina University,Southern,36900.0,66600.0,39000.0,49500.0,94400.0,133000.0
+216,Tusculum College,Southern,36900.0,55500.0,36200.0,43000.0,87300.0,124000.0
+316,Niagara University,Northeastern,36900.0,69700.0,44000.0,57000.0,92000.0,128000.0
+219,Florida Metropolitan University (FMU),Southern,36600.0,51000.0,32800.0,36800.0,70400.0,102000.0
+124,Missouri State University (MSU),Midwestern,36100.0,69500.0,33300.0,46900.0,102000.0,134000.0
+136,University of Wisconsin (UW) - Green Bay,Midwestern,35800.0,60600.0,35500.0,46800.0,81800.0,102000.0
+212,Mississippi College,Southern,35400.0,60400.0,0.0,43900.0,80400.0,0.0
+140,Black Hills State University,Midwestern,35300.0,43900.0,0.0,32200.0,60900.0,0.0
+211,Morehead State University,Southern,34800.0,60600.0,34300.0,46500.0,72000.0,91300.0
+217,Virginia Wesleyan College (VWC),Southern,34600.0,54900.0,0.0,37100.0,88900.0,0.0
+218,"Lee University (Cleveland, TN)",Southern,34500.0,53900.0,0.0,44500.0,76800.0,0.0
